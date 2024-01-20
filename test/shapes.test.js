@@ -1,4 +1,4 @@
-const { Square, Triangle, Circle } = require("./shapes");
+const { Square, Triangle, Circle } = require("../lib/shapes");
 
 describe("Circle", () => {
   it("should render svg for a green circle element", () => {
@@ -15,9 +15,10 @@ describe("Circle", () => {
 });
 
 describe("Triangle", () => {
-  it("should render svg for a green polygon element", () => {
-    const expectedSvg =
-      '<polygon points="150, 18 244, 182 56, 182" fill="bisque" />';
+  it("should render svg for a blue polygon element", () => {
+    const shape = new Triangle();
+    shape.setColor("blue");
+    expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue"/>');
 
 
   });
@@ -41,3 +42,4 @@ describe("Square", () => {
 
   });
 });
+
