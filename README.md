@@ -42,7 +42,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Tests
 
-1. Run 'npm start' or 'node index.js'. 
+1. Run `node index.js` or `npm start`. 
 2. Answer the questions. 
 3. Open the generated logo.svg and see that it matches the parameters input for the answers.
 
@@ -59,4 +59,4 @@ If you have any questions, contact the developer at:
 [Repository Link:](https://github.com/JulieABowers/Logo-Maker.git)
 
 ## Walkthrough Video:
-[Click Here to Watch]()
+[Click Here to Watch](https://drive.google.com/file/d/1q_B4y76dUMZyotd0y0HI3x1jQS1XPEYx/view)
